@@ -5,7 +5,7 @@
 Factory: 创建产品，包含了创建产品逻辑
 Product: 抽象产品
 ConcreteProduct: 具体点的产品角色
-![avatar](/Users/yqg/Desktop/1567425912588.jpg)
+![](https://github.com/fjnuwm/design_pattern/blob/master/factory-method/src/main/resources/uml/simple-factory.jpg "uml")
 
 ### 优点
 1.将创建和使用的过程分离开
