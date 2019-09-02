@@ -1,16 +1,10 @@
 package com.learn.operator.operators.impl;
 
-import com.learn.operator.operators.ShuangmuOperator;
+import com.learn.operator.operators.IOperator;
 
-import java.util.function.DoubleBinaryOperator;
-
-public class MultiOperator extends ShuangmuOperator {
-  public MultiOperator() {
-    super(new DoubleBinaryOperator() {
-      @Override
-      public double applyAsDouble(double left, double right) {
-        return left * right;
-      }
-    });
+public class MultiOperator implements IOperator {
+  @Override
+  public double calResult(double num1, double num2) {
+    return num1 * num2;
   }
 }
