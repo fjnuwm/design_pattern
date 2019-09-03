@@ -10,7 +10,7 @@
     <modules>
         <module>singleton</module>
         <module>strategy</module>
-        <module>factory-method</module>
+        <module>factory</module>
     </modules>
     <packaging>pom</packaging>
 

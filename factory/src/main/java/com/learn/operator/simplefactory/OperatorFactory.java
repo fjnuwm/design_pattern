@@ -1,4 +1,4 @@
-package com.learn.operator.factory;
+package com.learn.operator.simplefactory;
 
 import com.learn.operator.operators.*;
 import com.learn.operator.operators.impl.AddOperator;

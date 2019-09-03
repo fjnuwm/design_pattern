@@ -1,9 +1,8 @@
-package com.learn.operator;
+package com.learn.operator.simplefactory;
 
-import com.learn.operator.factory.OperatorFactory;
 import com.learn.operator.operators.IOperator;
 
-public class OperatorFactoryDemo {
+public class OperatorFactoryClient {
   public static void main(String[] args) {
     String add = "+";
     IOperator addOperator =  OperatorFactory.create(add);
