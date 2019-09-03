@@ -6,6 +6,7 @@
 - **ConcreteFactory:** 具体工厂
 - **AbstractProduct:** 抽象产品
 - **ConcreteProduct:** 具体产品
+![](https://github.com/fjnuwm/design_pattern/blob/master/abstract-factory/src/main/resources/uml/abstract-factory.jpg "uml")
 ### 优点
 1. 每次通过一个具体工厂可以创建一个产品族中多个对象，替换方便
 ### 缺点
