@@ -3,8 +3,8 @@ package com.learn;
 import com.learn.factory.AbstractFactory;
 import com.learn.factory.impl.HuaweiFactory;
 import com.learn.factory.impl.XiaomiFactory;
-import com.learn.product.AbstractComputer;
-import com.learn.product.AbstractPhone;
+import com.learn.pattern.withdirector.product.AbstractComputer;
+import com.learn.pattern.withdirector.product.AbstractPhone;
 
 /**
  * 抽象工厂模式

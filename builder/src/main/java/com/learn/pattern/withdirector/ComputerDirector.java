@@ -1,6 +1,6 @@
-package com.learn;
+package com.learn.pattern.withdirector;
 
-import com.learn.builder.AbstractComputerBuilder;
+import com.learn.pattern.withdirector.builder.AbstractComputerBuilder;
 
 public class ComputerDirector {
   private AbstractComputerBuilder builder;

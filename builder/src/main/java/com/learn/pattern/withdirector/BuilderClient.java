@@ -1,8 +1,8 @@
-package com.learn;
+package com.learn.pattern.withdirector;
 
-import com.learn.builder.AbstractComputerBuilder;
-import com.learn.builder.impl.HuaweiComputerBuilder;
-import com.learn.product.Computer;
+import com.learn.pattern.withdirector.builder.AbstractComputerBuilder;
+import com.learn.pattern.withdirector.builder.impl.HuaweiComputerBuilder;
+import com.learn.pattern.withdirector.product.Computer;
 
 /**
  * 建造者模式客户端
@@ -13,7 +13,6 @@ public class BuilderClient {
     ComputerDirector director = new ComputerDirector(huaweiComputerBuilder);
     director.construct();
     Computer computer = huaweiComputerBuilder.genComputer();
-    System.out.println(computer.getCpu());
-    System.out.println(computer.getScreen());
+    System.out.println(computer);
   }
 }

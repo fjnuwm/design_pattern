@@ -1,6 +1,6 @@
-package com.learn.builder.impl;
+package com.learn.pattern.withdirector.builder.impl;
 
-import com.learn.builder.AbstractComputerBuilder;
+import com.learn.pattern.withdirector.builder.AbstractComputerBuilder;
 
 public class XiaomiComputerBuilder extends AbstractComputerBuilder {
   @Override

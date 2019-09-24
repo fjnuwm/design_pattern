@@ -1,7 +1,7 @@
 package com.learn.factory;
 
-import com.learn.product.AbstractComputer;
-import com.learn.product.AbstractPhone;
+import com.learn.pattern.withdirector.product.AbstractComputer;
+import com.learn.pattern.withdirector.product.AbstractPhone;
 
 public abstract class AbstractFactory {
   public abstract AbstractPhone createPhone();

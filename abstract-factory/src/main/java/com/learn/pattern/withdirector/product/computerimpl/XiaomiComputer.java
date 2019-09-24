@@ -1,6 +1,6 @@
-package com.learn.product.computerimpl;
+package com.learn.pattern.withdirector.product.computerimpl;
 
-import com.learn.product.AbstractComputer;
+import com.learn.pattern.withdirector.product.AbstractComputer;
 
 public class XiaomiComputer extends AbstractComputer {
   @Override

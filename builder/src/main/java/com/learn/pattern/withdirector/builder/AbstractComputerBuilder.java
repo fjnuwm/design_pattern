@@ -1,6 +1,6 @@
-package com.learn.builder;
+package com.learn.pattern.withdirector.builder;
 
-import com.learn.product.Computer;
+import com.learn.pattern.withdirector.product.Computer;
 
 public abstract class AbstractComputerBuilder {
   protected Computer computer = new Computer();

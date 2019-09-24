@@ -1,6 +1,6 @@
-package com.learn.product.phoneimpl;
+package com.learn.pattern.withdirector.product.phoneimpl;
 
-import com.learn.product.AbstractPhone;
+import com.learn.pattern.withdirector.product.AbstractPhone;
 
 public class HuaweiPhone extends AbstractPhone {
   @Override

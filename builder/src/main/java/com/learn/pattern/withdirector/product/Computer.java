@@ -1,4 +1,4 @@
-package com.learn.product;
+package com.learn.pattern.withdirector.product;
 
 public class Computer {
   private String screen;
@@ -18,5 +18,13 @@ public class Computer {
 
   public void setCpu(String cpu) {
     this.cpu = cpu;
+  }
+
+  @Override
+  public String toString() {
+    return "Computer{" +
+        "screen='" + screen + '\'' +
+        ", cpu='" + cpu + '\'' +
+        '}';
   }
 }
